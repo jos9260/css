@@ -1,8 +1,9 @@
+
 {
     ":root": {
         "--background-image": "url('https://github.com/jos9260/images/blob/main/0t1rMGm.jpeg')",
         "--background-blur": "5px",
-        "--background-darkness": "0.6",
+        "--background-darkness": 0.6,
         "--background-position": "center/cover !important"
     },
     "@keyframes stars": {
@@ -25,5 +26,15 @@
         "animation": "stars 60s linear infinite",
         "z-index": -1,
         "pointer-events": "none"
+    },
+    ":root_2nd_set_of_variables_1": {
+        "--dtransparencycolor": "0,0,0", 
+        "--dtransparencyalpha": "0.15", 
+        "--dmessagetransparency": "0.5", 
+        "--dguildchanneltransparency": "0.15", 
+        "--dmemberlisttransparency": "0.00", 
+        "--daccentcolor": "190,78,180", 
+        "--dfont": "Whitney, Helvetica Neue, Helvetica, Arial, sans-serif", 
+        "--dtextshadow": "transparent"
     }
 }
